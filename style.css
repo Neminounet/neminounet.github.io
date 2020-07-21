@@ -1,3 +1,7 @@
+body
+{
+	background-color: yellow;
+}
 .PosLeft
 {
 	text-align: left;
@@ -5,4 +9,16 @@
 .PosCenter
 {
 	text-align: center;
+}
+.DatesLieux
+{
+	font-weight: bold;
+	clear: left;
+	text-align: center;
+	float : left;
+}
+.Job
+{
+	font-weight: bold;
+	font-size: large;
 }
