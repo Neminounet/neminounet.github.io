@@ -1,24 +1,97 @@
-body
+#contenu
 {
-	background-color: yellow;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: flex-start;
 }
-.PosLeft
+header
 {
-	text-align: left;
+	display: flex;
 }
-.PosCenter
+#imgPres
 {
+	width: 300px;
+	border: 1px solid black;
+	order: 1;
+	background-color: #00897B;
+}
+#nom
+{
+	width: 1000px;
+	order: 2;
+	border: 1px solid black;
+	flex:1;
+
+}
+#contact
+{
+	width: 300px;
+	order: 3;
+	border: 1px solid black;
+	background-color: #00897B;
+}
+#aPropos
+{
+	width: 300px;
+	border: 1px solid black;
+	order: 5;
+	text-align: center;
+	background-color: #00897B;
+}
+#loisirs
+{
+	width: 300px;
+	border: 1px solid black;
+	order: 7;
+	background-color: #00897B;
+
+}
+/* Expériences Professionnelles */
+#exPro
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items:flex-start;
+	width: 1000px;
+	flex-wrap: wrap;
+	border: 1px solid black;
+
+	order: 4;
+}
+.exProTitre
+{
+	width: 1000px;
+	border: 1px solid black;
+}
+.date
+{
+	border: 1px solid black;
+	width: 100px;
+}
+.job
+{
+	border: 1px solid black;
+	width: 800px;
 	text-align: center;
 }
-.DatesLieux
+/*Formations*/
+#formations
 {
-	font-weight: bold;
-	clear: left;
-	text-align: center;
-	float : left;
+	width: 1000px;
+	order: 6;
+	border: 1px solid black;
+
 }
-.Job
+li
 {
-	font-weight: bold;
-	font-size: large;
+	list-style: none;
+}
+h3
+{
+	text-align: center;
+	background-color: #4A148C;
+	color: #00897B;
 }
