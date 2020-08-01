@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.min.css">
 		<title>Mon Curriculum Vitae</title>
 	</head>
 
@@ -10,61 +11,106 @@
 		<div id="contenu">
 			<header>
 					<div id="imgPres">
-						<p><a href="images/Puck.png"><img src="images/rs-puck.png" alt="Image mini du Puck" title="Ma Photo"/width="200px"></a></p>
+						<p><a href="images/Puck.png"><img src="images/rs-puck.png" alt="Image mini du Puck" title="Ma Photo"/"></a></p>
 					</div>
-					<div id="nom">
-						<h1>Tranouez Yannick</h1>
-						<h2>Développeur Web</h2>
+					<div id="nomJob">
+						<h1><span class="nomBold">TRANOUEZ</span> <span class="nomNormal">YANNICK</span></h1>
+						<h2><span class="jobUnder">Dével</span>oppeur Web</h2>
 					</div>
 			</header>
 
-			<aside id="contact">
-			<h3>Contact</h3>
-				<ul>
-					<li>Grasse,France</li>
-					<li>06.17.01.xx.xx</li>
-					<li><a href="mailto:neminounet@gmail.com" title="Me contacter">neminounet@gmail.com</a></li>
-					<li>Mon site Web : <a href="https://neminounet.github.io/" target="_blank">neminounet.github.io</a></li>
-					<li>Mon Portfolio Jeux-videos : <a href="https://neminounet.itch.io/" target="_blank">neminounet.itch.io</a></li>
-				</ul>
+			<aside>
+				<div id="contact">
+				<h3>Contact</h3>
+					<ul>
+						<li>Grasse,France</li>
+						<li>06.17.01.xx.xx</li>
+						<li><a href="mailto:neminounet@gmail.com" title="Me contacter">neminounet@gmail.com</a></li>
+						<li>Mon site Web : <a href="https://neminounet.github.io/" target="_blank">neminounet.github.io</a></li>
+						<li>Mon Portfolio Jeux-videos : <a href="https://neminounet.itch.io/" target="_blank">neminounet.itch.io</a></li>
+					</ul>
+				</div>
+				<div id="aPropos">
+					<h3>A Propos de moi</h3>
+					<p>
+						Âgé de 33 ans, ancien fonctionnaire, j'ai toujours été passionné par l'informatique et plus spécifiquement,par la programmation; aussi je me suis formé à cette discipline afin de pouvoir devenir Développeur Web.
+						Aujourd'hui je propose mes services pour la conception de Sites Web/Applications personnalisé(e)s.
+					</p>
+				</div>
+				<div id="loisirs">
+					<h3>Loisirs</h3>
+					<ul>
+						<li>Programmation de jeux Vidéos</li>
+						<li>Jeux Vidéos</li>
+						<li>Sport : CrossFit, Skateboard</li>
+						<li>Musique : Guitare, Batterie</li>
+						<li>Littérature fantastique</li>
+					</ul>
+				</div>
 			</aside>
-			<aside id="aPropos">
-				<h3>A Propos de moi</h3>
-				<p>
-					Âgé de 33 ans, ancien fonctionnaire, j'ai toujours été passionné par l'informatique et plus spécifiquement,par la programmation; aussi je me suis formé à cette discipline afin de pouvoir devenir Développeur Web.
-					Aujourd'hui je propose mes services pour la conception de Sites Web/Applications personnalisé(e)s.
-				</p>
-			</aside>
-			<aside id="loisirs">
-				<h3>Loisirs</h3>
-				<ul>
-					<li>Programmation de jeux Vidéos</li>
-					<li>Jeux Vidéos</li>
-					<li>Sport : CrossFit, Skateboard</li>
-					<li>Musique : Guitare, Batterie</li>
-					<li>Littérature fantastique</li>
-			</aside>
-			<section id="exPro">
-			<h2 class="exProTitre">Expériences professionnelles</h2>
-					<div class="date">2017-2020 Biot</div>
-					<div class="job"> <h4>POLICE TERRITORIALE</h4> <p>Brigadier-Chef-Principal</p> à Brigade de surveillance nocturne </div>  
-					<div class="date">2015-2017 Valbonne</div>
-					<div class="job"> <h4>POLICE TERRITORIALE</h4> <p>Brigadier</p> à Brigade de surveillance nocturne </div>
-					<div class="date">2009-2014 Biot</div>
-					<div class="job"> <h4>POLICE TERRITORIALE</h4> <p>Gardien</p> à Brigade roulement diurne </div> 
-					<div class="date">2006-2008 Biot</div> 
-					<div class="job"> <h4>POLICE TERRITORIALE</h4> <p>Agent de surveillance de la voie publique</p> </div>
-			</section>
-			<section id="formations">
-				<h2>Formations</h2>
-				<ul>
-					<li>Juin 2020 à aujourd'hui Formation Développeur Web -- OpenClassrooms</li>
-					<li>Septembre 2019 à Juin 2020 BTS SIO SLAM 1ère année -- CNED</li>
-					<li>Avril 2019 à aujourd'hui Formation Programmation jeux vidéos -- GameCodeur</li>
-					<li>2014 Formation sous-officier Gendarmerie Nationale -- ESOG Chaumont 52000 </li>
-					<li>2008 Formation Gardien de Police --ENP Nîmes 30000</li>
-					<li>2005 Baccalauréat ES -- AC Nice </li>
-				</ul>
+
+			<section id="formaExPro">
+				<article id="formations">
+					<h2><i class="fas fa-graduation-cap"></i> FORMATIONS</h2> 
+						<ul>
+							<li>
+								<div class="date"><p><i class="far fa-dot-circle"></i> 2020-(En Cours)<br>Formation à distance</p></div>
+								<div class="job"><h4>OpenClassrooms</h4><p>Développeur Web</p></div>
+							</li>
+							<li>
+								<div class="date"><p><i class="far fa-dot-circle"></i> 2019-2020<br>Formation à distance</p></div>
+								<div class="job"><h4>CNED</h4><p>BTS SIO SLAM 1ère année</p></div>
+							</li>
+							<li>
+								<div class="date"><p><i class="far fa-dot-circle"></i> 2019-2020<br>Formation à distance</p></div>
+								<div class="job"><h4>GAMECODEUR</h4><p>Formation à la programmation de jeux vidéos</p></div>
+							</li>
+							<li>2014 Formation sous-officier Gendarmerie Nationale -- ESOG Chaumont 52000 </li>
+							<li>2008 Formation Gardien de Police --ENP Nîmes 30000</li>
+							<li>2005 Baccalauréat ES -- AC Nice </li>
+						</ul>
+				</article>
+				<article id="exPro">
+				<h2><i class="fas fa-briefcase"></i> EXPERIENCE PROFESSIONNELLE</h2>
+					<!-- <ul>
+						<li>
+							<div class="date"><p>2017-2020 <br> Biot</p></div>
+							<div class="job">
+								<h4>POLICE TERRITORIALE</h4> 
+								<p>Brigadier-Chef-Principal</p>
+								<p>à Brigade de surveillance nocturne</p> 
+							</div> 
+						</li>
+						<li>
+							<div class="date"><p>2017-2020 <br> Biot</p></div>
+							<div class="job">
+								<h4>POLICE TERRITORIALE</h4> 
+								<p>Brigadier-Chef-Principal</p>
+								<p>à Brigade de surveillance nocturne</p> 
+							</div> 
+						</li>
+					</ul>
+
+
+					<div class="lign_exp">
+						<div class="date"><p>2017-2020 <br> Biot</p></div>
+						<div class="job">
+							<h4>POLICE TERRITORIALE</h4> 
+							<p>Brigadier-Chef-Principal</p>
+							<p>à Brigade de surveillance nocturne</p> 
+						</div> 
+					</div> -->
+
+
+						<div class="date">2017-2020 Biot</div>
+						<div class="job"> <h4>POLICE TERRITORIALE</h4> <p>Brigadier-Chef-Principal</p> à Brigade de surveillance nocturne </div>  
+						<div class="date">2015-2017 Valbonne</div>
+						<div class="job"> <h4>POLICE TERRITORIALE</h4> <p>Brigadier</p> à Brigade de surveillance nocturne </div>
+						<div class="date">2009-2014 Biot</div>
+						<div class="job"> <h4>POLICE TERRITORIALE</h4> <p>Gardien</p> à Brigade roulement diurne </div> 
+						<div class="date">2006-2008 Biot</div> 
+						<div class="job"> <h4>POLICE TERRITORIALE</h4> <p>Agent de surveillance de la voie publique</p> </div>
+				</article>
 			</section>
 		</div>
 	</body>
