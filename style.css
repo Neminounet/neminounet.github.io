@@ -72,12 +72,17 @@ figure
 {
 	margin : 0px;
 }
+figure p
+{
+	margin-top:-16px;
+	margin-bottom: -16px;
+}
 figure img
 {
-	padding: 40px;
+	padding: 50px;
 	width: 60%;
 	height: 140px;
-	border-radius: 90px/90px;
+	border-radius: 50%;
 }
 aside h3
 {
