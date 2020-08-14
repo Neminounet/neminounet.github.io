@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -8,123 +8,129 @@
 	</head>
 
 	<body>
-		<div id="contenu">
+		<aside>
+<!--IMAGE DE PRESENTATION----------------------------------------------------------------------------------------------------------->
+			<figure>
+					<p><a href="images/Puck.png"><img src="images/rs-puck.png" alt="Image mini du Puck" title="Ma Photo"></a></p>
+			</figure>
+<!--CONTACT------------------------------------------------------------------------------------------------------------------------->
+			<div id="contact">
+			<h3>Contact</h3>
+				<ul>
+					<li>
+						<p class="contactLine">Adresse<br>Grasse,France</p>
+					</li>
+					<li>
+						<p class="contactLine">Téléphone<br>06.17.01.xx.xx</p>
+					</li>
+					<li>
+						<p class="contactLine">Email<br><a href="mailto:neminounet@gmail.com" title="Me contacter">neminounet@gmail.com</a></p>
+					</li>
+					<li>
+						<p class="contactLine">site Web<br><a href="https://neminounet.github.io/" target="_blank">neminounet.github.io</a></p>
+					</li>
+					<li>
+						<p class="contactLine">Portfolio<br><a href="https://neminounet.itch.io/" target="_blank">neminounet.itch.io</a></p>
+					</li>
+				</ul>
+			</div>
+<!--A PROPOS--------------------------------------------------------------------------------------------------------------------------->
+			<div id="aPropos">
+				<h3>A Propos de moi</h3>
+				<p class="aProposText">
+					Âgé de 33 ans, ancien fonctionnaire, j'ai toujours été passionné par l'informatique et plus spécifiquement,par la programmation; aussi je me suis formé à cette discipline afin de pouvoir devenir Développeur Web.
+					Aujourd'hui je propose mes services pour la conception de Sites Web/Applications personnalisé(e)s.
+				</p>
+			</div>
+<!--LOISIRS---------------------------------------------------------------------------------------------------------------------------->
+			<div id="loisirs">
+				<h3>Loisirs</h3>
+				<ul>
+					<li><i class="fas fa-gamepad"></i></li>
+					<li><i class="fas fa-running"></i></li>
+					<li><i class="fas fa-drum"></i></li>
+				</ul>
+			</div>
+		</aside>
+
+		<section>
+<!--HEADER------------------------------------------------------------------------------------------------->
 			<header>
-					<div id="imgPres">
-						<p><a href="images/Puck.png"><img src="images/rs-puck.png" alt="Image mini du Puck" title="Ma Photo"/></a></p>
-					</div>
-					<div id="nomJob">
-						<h1><span class="nomBold">TRANOUEZ</span> <span class="nomNormal">YANNICK</span></h1>
-						<h2><span class="jobUnder">Dével</span>oppeur Web</h2>
-					</div>
-			</header>
-
-			<aside>
-				<div id="contact">
-				<h3>Contact</h3>
+					<h1><span class="nomBold">TRANOUEZ</span> <span class="nomNormal">YANNICK</span></h1>
+					<h2><span class="jobUnder">Dével</span>oppeur Web</h2>
+		    </header>
+<!--FORMATIONS -------------------------------------------------------------------------------------------->
+			<article>
+				<h2><i class="fas fa-graduation-cap"></i> FORMATIONS</h2> 
+				<ul>
+					<li>
+						<p class="date"><i class="fas fa-dot-circle"></i> 2020-(En Cours)<br>Formation à distance</p>
+						<div class="job1"><h4>OPENCLASSROOMS</h4><p>Développeur Web</p></div>
+					</li>
+					<li>
+						<p class="date"><i class="far fa-dot-circle"></i> 2019-2020<br>Formation à distance</p>
+						<div class="job1"><h4>CNED</h4><p>BTS SIO SLAM 1ère année</p></div>
+					</li>
+					<li>
+						<p class="date"><i class="far fa-dot-circle"></i> 2019-2020<br>Formation à distance</p>
+						<div class="job1"><h4>GAMECODEUR</h4><p>Formation à la programmation de jeux vidéos</p></div>
+					</li>
+					<li>
+						<p class="date"><i class="far fa-dot-circle"></i> 2014-2015<br>Chaumont</p>
+						<div class="job1"><h4>ESOG</h4><p>Sous-officier Gendarmerie Nationale</p></div>
+					</li>
+					<li>
+						<p class="date"><i class="far fa-dot-circle"></i> 2008-2009<br>Nîmes</p>
+						<div class="job1"><h4>ENP NIMES</h4><p>Formation Gardien de Police</p></div>
+					</li>
+					<li>
+						<p class="date"><i class="far fa-dot-circle"></i> 2005<br>Nice</p>
+						<div class="job1"><h4>AC NICE</h4><p>Baccalauréat ES</p></div>
+					</li>
+				</ul>
+			</article>
+<!--EXPERIENCE PROFESSIONNELLE---------------------------------------------------------------------------->
+			<article>
+				<h2><i class="fas fa-briefcase"></i> EXPERIENCE PROFESSIONNELLE</h2>
+				<ul>
+					<li>
+						<p class="date"><i class="fas fa-dot-circle"></i> 2017-2020 <br> Biot</p>
+						<div class="job2"><h4>POLICE</h4><p>Brigadier-Chef-Principal<br>Brigade de surveillance nocturne</p></div>
+					</li>
+					<li>
+						<p class="date"><i class="far fa-dot-circle"></i> 2015-2017 <br> Valbonne</p>
+						<div class="job2"><h4>POLICE</h4><p>Brigadier<br>Brigade de surveillance nocturne</p></div> 
+					</li>
+					<li>
+						<p class="date"><i class="far fa-dot-circle"></i> 2009-2014 <br> Biot</p>
+						<div class="job2"><h4>POLICE</h4><p>Gardien<br>Brigade de sécurité publique</p></div> 
+					</li>
+					<li>
+						<p class="date"><i class="far fa-dot-circle"></i> 2006-2008 <br> Biot</p>
+						<div class="job2"><h4>POLICE</h4><p>ASVP<br>Brigade de prévention</p></div> 
+					</li>
+				</ul>  
+			</article>
+<!--RECOMMANDATIONS-------------------------------------------------------------------------------------->			
+			<article id="reco">
+				<h2><i class="fas fa-pen"></i> RECOMMANDATIONS</h2>
+				<div class="recoId">
+					<h4>ROBERT MACHIN</h4>
 					<ul>
-						<li>
-							<div class="contactLine"><p>Adresse<br>Grasse,France</p></div>
-						</li>
-						<li>
-							<div class="contactLine"><p>Téléphone<br>06.17.01.xx.xx</p></div>
-						</li>
-						<li>
-							<div class="contactLine"><p>Email<br><a href="mailto:neminounet@gmail.com" title="Me contacter">neminounet@gmail.com</a></p></div>
-						</li>
-						<li>
-							<div class="contactLine"><p>site Web<br><a href="https://neminounet.github.io/" target="_blank">neminounet.github.io</a></p></div>
-						</li>
-						<li>
-							<div class="contactLine"><p>Portfolio<br><a href="https://neminounet.itch.io/" target="_blank">neminounet.itch.io</a></p></div>
-						</li>
+						<li><span class="idForm">Directeur, Agence</span></li>
+						<li><span class="idForm">Téléphone</span> : xx xx xx xx xx</li>
+						<li><span class="idForm">Email</span> : robert.machin@truc.com</li>
 					</ul>
 				</div>
-				<div id="aPropos">
-					<h3>A Propos de moi</h3>
-					<p class="aProposText">
-						Âgé de 33 ans, ancien fonctionnaire, j'ai toujours été passionné par l'informatique et plus spécifiquement,par la programmation; aussi je me suis formé à cette discipline afin de pouvoir devenir Développeur Web.
-						Aujourd'hui je propose mes services pour la conception de Sites Web/Applications personnalisé(e)s.
-					</p>
-				</div>
-				<div id="loisirs">
-					<h3>Loisirs</h3>
-					<div class="loisirsDispo">
-						<div class="logo"><i class="fas fa-gamepad"></i></div>
-						<div class="logo"><i class="fas fa-running"></i></div>
-						<div class="logo"><i class="fas fa-drum"></i></div>
-					</div>
-				</div>
-			</aside>
-
-			<section id="formaExPro">
-				<article id="formations">
-					<h2><i class="fas fa-graduation-cap"></i> FORMATIONS</h2> 
+				<div class="recoId">
+					<h4>ROBERT MACHIN</h4>
 					<ul>
-						<li>
-							<div class="date"><p><i class="fas fa-dot-circle"></i> 2020-(En Cours)<br>Formation à distance</p></div>
-							<div class="job"><h4>OPENCLASSROOMS</h4><p>Développeur Web</p></div>
-						</li>
-						<li>
-							<div class="date"><p><i class="far fa-dot-circle"></i> 2019-2020<br>Formation à distance</p></div>
-							<div class="job"><h4>CNED</h4><p>BTS SIO SLAM 1ère année</p></div>
-						</li>
-						<li>
-							<div class="date"><p><i class="far fa-dot-circle"></i> 2019-2020<br>Formation à distance</p></div>
-							<div class="job"><h4>GAMECODEUR</h4><p>Formation à la programmation de jeux vidéos</p></div>
-						</li>
-						<li>
-							<div class="date"><p><i class="far fa-dot-circle"></i> 2014-2015<br>Chaumont</p></div>
-							<div class="job"><h4>ESOG</h4><p>Sous-officier Gendarmerie Nationale</p>
-						</li>
-						<li>
-							<div class="date"><p><i class="far fa-dot-circle"></i> 2008-2009<br>Nîmes</p></div>
-							<div class="job"><h4>ENP NIMES</h4><p>Formation Gardien de Police<p>
-						</li>
-						<li>
-							<div class="date"><p><i class="far fa-dot-circle"></i> 2005<br>Nice</p></div>
-							<div class="job"><h4>AC NICE</h4><p>Baccalauréat ES</p></div>
-						</li>
+						<li><span class="idForm">Directeur, Agence</span></li>
+						<li><span class="idForm">Téléphone</span> : xx xx xx xx xx</li>
+						<li><span class="idForm">Email</span> : robert.machin@truc.com</li>
 					</ul>
-				</article>
-
-				<article id="exPro">
-					<h2><i class="fas fa-briefcase"></i> EXPERIENCE PROFESSIONNELLE</h2>
-					<ul>
-						<li>
-							<div class="date"><p><i class="fas fa-dot-circle"></i> 2017-2020 <br> Biot</p></div>
-							<div class="job"><h4>POLICE</h4><p>Brigadier-Chef-Principal<br>Brigade de surveillance nocturne</p></div>
-						</li>
-						<li>
-							<div class="date"><p><i class="far fa-dot-circle"></i> 2015-2017 <br> Valbonne</p></div>
-							<div class="job"><h4>POLICE</h4><p>Brigadier<br>Brigade de surveillance nocturne</p></div> 
-						</li>
-						<li>
-							<div class="date"><p><i class="far fa-dot-circle"></i> 2009-2014 <br> Biot</p></div>
-							<div class="job"><h4>POLICE</h4><p>Gardien<br>Brigade de sécurité publique</p></div> 
-						</li>
-						<li>
-							<div class="date"><p><i class="far fa-dot-circle"></i> 2006-2008 <br> Biot</p></div>
-							<div class="job"><h4>POLICE</h4><p>ASVP<br>Brigade de prévention</p></div> 
-						</li>
-					</ul>  
-				</article>
-				<article id="reco">
-					<h2><i class="fas fa-pen"></i> RECOMMANDATIONS</h2>
-						<div class="recoId">
-							<h4>ROBERT MACHIN</h4>
-							<p><span class="idForm">Directeur, Agence</span></p>
-							<p><span class="idForm">Téléphone</span> : xx xx xx xx xx</p>
-							<p><span class="idForm">Email</span> : robert.machin@truc.com</p>
-						</div>
-						<div class="recoId">
-							<h4>ROBERT MACHIN</h4>
-							<p><span class="idForm">Directeur, Agence</span></p>
-							<p><span class="idForm">Téléphone</span> : xx xx xx xx xx</p>
-							<p><span class="idForm">Email</span> : robert.machin@truc.com</p>
-						</div>
-				</article>
-			</section>
-		</div>
+				</div>
+			</article>
+		</section>
 	</body>
 </html>
