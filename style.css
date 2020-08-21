@@ -212,13 +212,15 @@ display: flex;
 }
 .recoId
 {
-	width: 50%;
+	width: 40%;
 	opacity: 0.6;
 }
 .recoId h4
 {
-	margin-left: 40px;
-	margin-bottom: -15px;
+	width: 100%;
+	margin: 0;
+	padding: 2px;
+	font-size: 1em;
 }
 .idForm
 {
