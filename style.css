@@ -1,7 +1,6 @@
 body
 {
 	display: flex;
-	width: 1024px;
 	font-family: 'source_sans_proregular','source_sans_probold','source_sans_proitalic';
 	margin: 0px;
 }
@@ -219,7 +218,7 @@ display: flex;
 {
 	width: 100%;
 	margin: 0;
-	padding: 2px 0 2px 0;
+	padding: 2px;
 	font-size: 1em;
 }
 .idForm
