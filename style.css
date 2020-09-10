@@ -88,6 +88,7 @@ aside h3
 {
 	height: 500px;
 }
+
 .contactLine
 {
 	font-weight: bold;
@@ -224,4 +225,112 @@ display: flex;
 .idForm
 {
 	font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+/* MOINS de 576 PX -------------------------------------------------------------------------------------------------*/
+@media (max-width: 575.98px)
+{
+	/*ASIDE --------------------------------------------------------------------------------------------------------*/
+	aside
+	{
+		width: auto;
+		min-width: auto;
+	}
+	#contact ul
+	{
+		padding: 0 10px 0 10px;
+	}
+	figure img
+	{
+		margin-left: 35px; 
+		margin-top: 35px;
+		margin-bottom: 20px;
+	}
+	#loisirs ul
+	{
+		margin-top: 30px;
+		margin-left: 0px;
+		padding: 0 15px 0 15px;
+	}
+	/*SECTION -------------------------------------------------------------------------------------------------------*/
+	section
+	{
+		width: auto;
+	}
+	header h1 
+	{
+		width: auto;
+	    margin-top: 30px;
+	    margin-left: 30px;
+	    margin-bottom: 0px;
+	    font-size: 2em;
+	}
+	header h2
+	{
+		width: auto;
+	    margin-top: 0px;
+	    margin-left: 30px;
+	    margin-bottom: 0px;
+	    opacity: 0.6;
+	    font-size: 1.5em;
+	}
+	article h2 
+	{
+	    width: 80%;
+	    font-size: 1.5em;
+	    margin-left: 30px;
+	    border-bottom: 3px solid #00897B;
+	}
+	article ul 
+	{
+	    width: auto;
+	    padding: 0 30px 0 30px;
+	    margin: 0 0 0 0;
+	}
+	.date 
+	{
+	    width: 30%;
+	    opacity: 0.6;
+	    font-weight: bold;
+	    margin-top: 0px;
+	    margin-bottom: 10px;
+	}
+	.job1 
+	{
+	    width: 70%;
+	    text-align: left;
+	    opacity: 0.6;
+	    font-weight: bold;
+	    margin-left: 10px;
+	}
+	.job1 p
+	{
+		margin-bottom: 5px;
+		margin-top: 0px;
+	}
+	li h4
+	 {
+	    font-size: 1.2em;
+	    margin-bottom: 0;
+	    margin-top: 0;
+	}
+	.job2 
+	{
+	    width: 70%;
+	    text-align: left;
+	    opacity: 0.6;
+	    font-weight: bold;
+	    margin-left: 10px;
+	}
+	.job2 p
+	{
+		margin-bottom: 5px;
+		margin-top: 0px;
+	}
+	.recoId
+	{
+		width: auto;
+		padding: 10px 0 10px 0;
+	}
 }
