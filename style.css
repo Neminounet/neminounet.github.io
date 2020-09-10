@@ -55,8 +55,8 @@ aside
 	display: flex;
 	flex-direction: column;
 	background-color: #00897B;
-	width: 25%;
-	min-width: 25%;
+	width: 20%;
+	min-width: 20%;
 }
 figure
 {
@@ -64,12 +64,12 @@ figure
 }
 figure p
 {
-	margin-top:-16px;
-	margin-bottom: -16px;
+	margin-top:0px;
+	margin-bottom: 0px;
 }
 figure img
 {
-	margin-left: 50px;
+	margin-left: 55px;
 	margin-top: 40px;
 	margin-bottom: 30px;
 	width: 60%;
@@ -109,7 +109,8 @@ aside h3
 {
 	display: flex;
 	justify-content: space-around;
-	margin-left: -30px;
+	margin-left: 0;
+	padding: 15px;
 }
 
 /*SECTION-----------------------------------------------------------------------------------------*/
@@ -132,7 +133,8 @@ header h1
 {
 	width: 100%;
 	margin-top: 100px;
-	margin-left: 100px;
+	margin-left: 50px;
+	margin-bottom: 10px;
 	font-size: 4em;
 }
 .nomBold
@@ -147,8 +149,8 @@ header h1
 header h2
 {
 	width: 100%;
-	margin-top: -50px;
-	margin-left: 100px;
+	margin-top: 0;
+	margin-left: 50px;
 	opacity: 0.6;
 	font-size: 2em;
 }
@@ -168,10 +170,11 @@ article
 article ul
 {
 	width: 100%;
+	padding-left: 50px;
 }
 article h2
 {
-	width: 100%;
+	width: 80%;
 	font-size: 2em;
 	margin-left: 50px;
 	border-bottom: 3px solid #00897B;
@@ -181,27 +184,24 @@ article h2
 	width: 30%;
 	opacity: 0.6;
 	font-weight: bold;
-	margin-top: -15px;
+	margin-top: 0px;
 }
-.job1
+.job1, .job2
 {
 	width: 70%;
 	text-align: left;
 	opacity: 0.6;
 	font-weight: bold;
 }
-.job2
+.job1 p, .job2 p
 {
-	width: 60%;
-	text-align: left;
-	opacity: 0.6;
-	font-weight: bold;
+	margin-top: 0px;
 }
 li h4
 {
 	font-size: 1.5em;
-	margin-bottom: -10px;
-	margin-top: -5px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 /*RECOMMANDATIONS*/
@@ -212,7 +212,7 @@ display: flex;
 }
 .recoId
 {
-	width: 40%;
+	width: 30%;
 	opacity: 0.6;
 }
 .recoId h4
@@ -222,30 +222,53 @@ display: flex;
 	padding: 2px;
 	font-size: 1em;
 }
+.recoId ul
+{
+	padding-left: 0px;
+}
 .idForm
 {
 	font-weight: bold;
 }
 
 /* MEDIA QUERIES */
-/* MOINS de 576 PX -------------------------------------------------------------------------------------------------*/
-@media (max-width: 575.98px)
+/* PETITS SMARTPHONE -------------------------------------------------------------------------------------------------*/
+@media (max-width: 576px)
 {
+	body
+	{
+		display: block;
+	}
 	/*ASIDE --------------------------------------------------------------------------------------------------------*/
 	aside
 	{
 		width: auto;
 		min-width: auto;
 	}
+	#contact
+	{
+		height: auto;
+	}
 	#contact ul
 	{
-		padding: 0 10px 0 10px;
+		padding: 0;
+	}
+	#contact li
+	{
+		display: block;
+		text-align: center;
 	}
 	figure img
 	{
-		margin-left: 35px; 
-		margin-top: 35px;
-		margin-bottom: 20px;
+		margin: 10px 0 10px 69px;
+	}
+	#aPropos
+	{
+		height: auto;
+	}
+	.aProposText
+	{
+		margin: 20px 35px 20px 35px;
 	}
 	#loisirs ul
 	{
@@ -262,16 +285,14 @@ display: flex;
 	{
 		width: auto;
 	    margin-top: 30px;
-	    margin-left: 30px;
+	    margin-left: 23px;
 	    margin-bottom: 0px;
 	    font-size: 2em;
 	}
 	header h2
 	{
 		width: auto;
-	    margin-top: 0px;
-	    margin-left: 30px;
-	    margin-bottom: 0px;
+	    margin: auto;
 	    opacity: 0.6;
 	    font-size: 1.5em;
 	}
@@ -279,30 +300,36 @@ display: flex;
 	{
 	    width: 80%;
 	    font-size: 1.5em;
-	    margin-left: 30px;
+	    margin: 15px 32px 15px 32px;
+	    text-align: center;
 	    border-bottom: 3px solid #00897B;
 	}
 	article ul 
 	{
-	    width: auto;
+	    width: 100%;
 	    padding: 0 30px 0 30px;
 	    margin: 0 0 0 0;
 	}
+	article li
+	{
+		display: block;
+	}
 	.date 
 	{
-	    width: 30%;
+	    width: 100%;
 	    opacity: 0.6;
+	    text-align: center;
 	    font-weight: bold;
-	    margin-top: 0px;
-	    margin-bottom: 10px;
+	    margin-top: 0;
+	    margin-bottom: 0;
 	}
 	.job1 
 	{
-	    width: 70%;
-	    text-align: left;
+	    width: 100%;
+	    text-align: center;
 	    opacity: 0.6;
 	    font-weight: bold;
-	    margin-left: 10px;
+	    margin-bottom: 15px;
 	}
 	.job1 p
 	{
@@ -317,11 +344,11 @@ display: flex;
 	}
 	.job2 
 	{
-	    width: 70%;
-	    text-align: left;
+	    width: 100%;
+	    text-align: center;
 	    opacity: 0.6;
 	    font-weight: bold;
-	    margin-left: 10px;
+	    margin-bottom: 15px;
 	}
 	.job2 p
 	{
@@ -330,7 +357,13 @@ display: flex;
 	}
 	.recoId
 	{
-		width: auto;
+		width: 100%;
+		text-align: center;
 		padding: 10px 0 10px 0;
 	}
+}
+/*TABLETTES----------------------------------------------------------------------------------------------*/
+@media (max-width: 992px)
+{
+
 }
