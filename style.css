@@ -258,9 +258,13 @@ display: flex;
 		display: block;
 		text-align: center;
 	}
+	figure p
+	{
+		text-align: center;
+	}
 	figure img
 	{
-		margin: 10px 0 10px 69px;
+		margin: 0;
 	}
 	#aPropos
 	{
