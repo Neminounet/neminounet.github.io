@@ -251,7 +251,7 @@ display: flex;
 	}
 	#contact ul
 	{
-		padding: 0;
+		padding: 0px;
 	}
 	#contact li
 	{
@@ -261,7 +261,7 @@ display: flex;
 	figure p
 	{
 		text-align: center;
-		padding: 10px 0 0 0px;
+		padding: 0px 0 0 0px;
 	}
 	figure img
 	{
@@ -279,7 +279,7 @@ display: flex;
 	{
 		margin-top: 30px;
 		margin-left: 0px;
-		padding: 0 15px 0 15px;
+		padding: 0px;
 	}
 	/*SECTION -------------------------------------------------------------------------------------------------------*/
 	section
@@ -351,7 +351,7 @@ display: flex;
 	{
 		width: 100%;
 		text-align: center;
-		padding: 10px 0 10px 0;
+		padding: 0px;
 	}
 }
 /*TABLETTES----------------------------------------------------------------------------------------------*/
