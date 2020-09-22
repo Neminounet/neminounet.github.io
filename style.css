@@ -312,7 +312,7 @@ display: flex;
 	article ul 
 	{
 	    width: 100%;
-	    padding: 0 30px 0 30px;
+	    padding: 0 0 0 30px;
 	    margin: 0 0 0 0;
 	}
 	article li
@@ -355,7 +355,7 @@ display: flex;
 	}
 }
 /*TABLETTES----------------------------------------------------------------------------------------------*/
-@media (min-width: 768px) and (max-width: 991.98px)
+@media (min-width: 576px) and (max-width: 991.98px)
 {
 	/*ASIDE----------------------------------------------------------------------------------------------*/
 	aside
