@@ -233,7 +233,7 @@ display: flex;
 
 /* MEDIA QUERIES */
 /* PETITS SMARTPHONE -------------------------------------------------------------------------------------------------*/
-@media (max-width: 575.98px)
+@media (max-width: 575px)
 {
 	body
 	{
@@ -355,7 +355,7 @@ display: flex;
 	}
 }
 /*TABLETTES----------------------------------------------------------------------------------------------*/
-@media (min-width: 576px) and (max-width: 991.98px)
+@media (min-width: 576px) and (max-width: 991px)
 {
 	/*ASIDE----------------------------------------------------------------------------------------------*/
 	aside
@@ -439,7 +439,7 @@ display: flex;
 		width: 40%;
 	}
 }
-@media (min-width: 992px) and (max-width: 1199.98px)
+@media (min-width: 992px) and (max-width: 1199px)
 	{
 		aside
 		{
